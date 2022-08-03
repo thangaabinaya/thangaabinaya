@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<title>Register Form </title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+   
+    <div class="box2">
+        <h1>ABOUT YOU</h1>
+        <form name="myform2" onsubmit="return vfun1()">
+
+            <label>Full Name     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     <input type="text" name="fname" placeholder="Enter FullName"> </label><br>
+
+            <label>Username &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;  <input type="text" name="uname1" placeholder="Enter Username"></label><br>
+
+            <label> Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="quali" placeholder="Enter qualification"> </label><br>
+           
+         <label> Contact No    &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;     <input type="tel"  name="contact" placeholder="Enter contact " pattern="[0-9]{10}"> </label><br>
+
+         <label>Age     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp;   <input type="number" name="age" placeholder="Enter age"> </label><br><br>
+         <label>Skills</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+         <textarea rows="5" cols="30" name="skills">enter skills here </textarea>        
+<br>
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <div id="errorBox"></div>
+<br>        <input id="two" type="submit"  value="Check" >
+
+            <br>
+            <br>
+            <br>
+             <a href="basic.html" class="button-left">PREVIOUS</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="score.html" class="button-right">NEXT</a>
+        </form>
+        
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

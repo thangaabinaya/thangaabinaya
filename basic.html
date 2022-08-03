@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<title>Login Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body>	
+    <div class="box">
+    
+                <form name="myform" onsubmit="return vfun()"> 
+					<div class="profile-pic-div">
+						<img src="image.jpg" id="photo">
+						<input type="file" id="file">
+						<label for="file" id="uploadBtn">Choose Photo</label>
+					  </div>
+				<div>
+                    <br>
+                    <br>
+                    <br>	
+                    <label><p> BASIC INFORMATION </p></label>		
+                    <br>
+                    <br>
+             <label>Candidate Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cname" placeholder="Enter candidatename"> </label><br> 
+             <label>Email     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type="Email" name="email1" placeholder="Enter email id"></label><br
+             <label><b> Date Of Birth </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="dob" placeholder="Enter DOB "> </label><br>
+            </div>
+             <br>
+             <br>
+            
+            <div id="errorBox"></div>           
+<input id="one" type="submit"  value="Check">
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="reg.html" class="button-link">NEXT</a>
+
+<br>
+            <br><br>
+          </form> 
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
